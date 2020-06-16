@@ -1,5 +1,12 @@
-import React from "react"
+import React from 'react'
+import Header from '../components/header'
+import Repos from '../components/repos'
+import Codigofacilito from '../components/codigofacilito'
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+export default () => <div>
+
+<Header />
+<Repos />
+<Codigofacilito />
+</div>
+
